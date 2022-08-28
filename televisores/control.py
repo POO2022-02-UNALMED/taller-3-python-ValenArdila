@@ -1,4 +1,4 @@
-class Control():
+class Control:
     def __init__(self):
         self.__tv=None
     def turnOff(self):
