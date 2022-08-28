@@ -34,9 +34,9 @@ class TV():
             self.__canal=canal
     def getCanal(self):
         return self.__canal
-    def setNumTV(cls,numTV):
+    def setnumTV(cls,numTV):
         cls.__numTV=numTV
-    def getNumTV(cls):
+    def getnumTV(cls):
         return cls.__numTV
     def turnOff(self):
         self.__estado=False
