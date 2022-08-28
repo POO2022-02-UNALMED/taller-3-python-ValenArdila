@@ -34,10 +34,10 @@ class TV():
             self.__canal=canal
     def getCanal(self):
         return self.__canal
-    def setNumTV(cls,numTV):
-        cls.__numTV=numTV
-    def getNumTV(cls):
-        return cls.__numTV
+    def setNumTV(self,numTV):
+        self.__numTV=numTV
+    def getNumTV(self):
+        return self.__numTV
     def turnOff(self):
         self.__estado=False
     def turnOn(self):
